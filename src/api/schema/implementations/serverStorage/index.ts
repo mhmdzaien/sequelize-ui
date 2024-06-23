@@ -183,10 +183,6 @@ export async function deleteSchema(id: string): Promise<void> {
   }
 }
 
-function schemasKey(): string {
-  return lsKey('schemas')
-}
-
 function joinModelToTable(
   association: Association,
   removedModels: Model[],
