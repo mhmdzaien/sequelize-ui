@@ -8,7 +8,7 @@ import {
 } from '@src/core/schema'
 import { arrayToLookup } from '@src/utils/array'
 import { now } from '@src/utils/dateTime'
-import { get, lsKey, remove, set } from '@src/utils/localStorage'
+import { get, lsKey, set } from '@src/utils/localStorage'
 import { uniqueId, versionedName } from '@src/utils/string'
 import { Schema as JtdSchema, validate } from 'jtd'
 import { SCHEMA_NOT_FOUND_ERROR, SchemaApi } from '../../api'
